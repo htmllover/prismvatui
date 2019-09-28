@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html{
+    overflow-y: scroll;
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #333;
+}
+
+p {margin-bottom: 1.25em;}
+
+h1, h2, h3, h4, h5 {
+    margin: 2.75rem 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 4.209em;
+}
+
+h2 {font-size: 3.157em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+small, .text_small {
+    font-size: 0.75em
+}
+
+.lead{
+    font-size: 1.45rem;
+}
+
+
+/*hero section css*/
+.hero-content{
+    color: #ffffff;
+}
+.hero-content h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.custom-outline-btn{
+    border: 1px solid #fbb03b;
+    color: #ffffff;
+}
+.custom-outline-btn, .custom-solid-btn, .accent-solid-btn{
+    padding: 0.90rem 2.90rem;
+    margin: 15px 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all .2s ease-out;
+    will-change: transform;
+    font-size: 15px;
+}
+
+.accent-solid-btn{
+    background: #007bff;
+    color: #ffffff;
+}
+.accent-solid-btn:hover{
+    color: #eff4f8;
+    background: #007bff;
+    opacity: 0.9;
+}
+.custom-outline-btn:hover{
+    background: #fbb03b;
+    color: #000038;
+    border-color: #fbb03b;
+    transform: translateY(-3px);
+}
+.custom-solid-btn{
+    background: #fbb03b;
+    border: 1px solid #fbb03b;
+    color: #000038;
+}
+.custom-solid-btn:hover{
+    background: #000038;
+    color: #ffffff;
+    border-color: #000038;
+    transform: translateY(-3px);
+}
+p.call-us{
+    font-size: 14px;
+}
+p.call-us strong{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-custom{
+    background: #eff4f8;
+}
+
+.affix {
+    background-color: #000038;
+    -webkit-transition:padding 0.2s ease-out;
+    -moz-transition:padding 0.2s ease-out;
+    -o-transition:padding 0.2s ease-out;
+    transition:padding 0.2s ease-out;
+
+}
+
+.navbar-nav li a.nav-link{
+    color: #fbb03b;
+}
+
+
+
+.hero-section{
+    position: relative;
+    overflow: hidden;
+    background: #000038;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.bottom-shap-1{
+
+}
+.bottom-shap-2{
+
+}
+.hero-section .bottom-shap-1 img.shape-1{
+    position: absolute;
+    right: 70%;
+    top: 60%;
+}
+
+.hero-section .bottom-shap-1 img.shap-logo{
+    position: absolute;
+    z-index: 8;
+    left: 5%;
+    width: 15%;
+    bottom: 5%;
+}
+.hero-section .bottom-shap-2 img.shape-2{
+    position: absolute;
+    left: 70%;
+    top: 60%;
+}
+.hero-section .bottom-shap-2 img.shap-logo{
+    position: absolute;
+    z-index: 8;
+    right: 5%;
+    width: 15%;
+    bottom: 5%;
+}
+
+
+.hero-section .container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+
+/*deployment section*/
+
+.deployment-model-img{
+    position: relative;
+    left: -260px;
+}
+.deployment-model-img img{
+    max-width: 1000px;
+}
+@media (min-width: 992px){
+    .w-lg-130 {
+        width: 180%!important;
+    }
+}
+
+
+@media (min-width: 768px){
+    .w-md-150 {
+        width: 180%!important;
+    }
+}
+
+
+
+
+.img-skewed-left {
+    perspective-origin: left center;
+}
+
+.img-skewed {
+    perspective: 1500px;
+    transform-style: preserve-3d;
+}
+
+.development-model-step img{
+    float: left;
+    margin-right: 5px;
+}
+
+.development-model-step h5{
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+
+/*industry support*/
+.industry-support{
+    background: url("../img/cover-bg.jpg")no-repeat center bottom / cover;
+}
+.industry-support-single{
+    border-radius: 4px;
+    background: #fff;
+    transition: all .2s ease-out;
+    will-change: transform;
+}
+.industry-support-single:hover{
+    transform: translateY(-10px);
+}
+.color-1{
+    box-shadow: inset 0 10px 0 #fbb03b, 0 0 4px rgba(0,0,0,.12);
+}
+.color-2{
+    box-shadow: inset 0 10px 0 #000038, 0 0 4px rgba(0,0,0,.12);
+}
+.color-3{
+    box-shadow: inset 0 10px 0 #007bff, 0 0 4px rgba(0,0,0,.12);
+}
+
+
+/*call to action*/
+.call-to-action-content h2, .call-to-action-content h3, .call-to-action-content p{
+    color: #ffffff;
+}
+
+
+
+/*footer*/
+
+.footer-section {
+    background: #000038;
+    padding: 50px 0 0;
+}
+
+/*footer top*/
+.footer-nav-wrap h6 {
+    color: #cccccc;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.footer-nav-wrap ul li a {
+    padding: 0.25rem 0;
+    font-size: 13px !important;
+    color: #8a8a8a;
+}
+.footer-nav-wrap ul li a:hover{
+    color: #eff4f8 !important;
+}
+
+/*footer bottom*/
+.footer-bottom{
+    margin-top: 40px;
+    background: #040442;
+    padding: 1.15rem 0;
+}
+.footer-copyright-wrap ul li a {
+    font-size: 13px;
+}
+
+.footer-copyright-wrap ul li a i {
+    color: #eff4f8;
+    font-size: 18px;
+}
+
+.footer-copyright-wrap ul li a i:hover {
+    color: #cccccc;
+}
+
+.footer-copyright-wrap ul li a:hover {
+    color: #4264fb !important;
+}
+
